@@ -1,0 +1,26 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "NikeAirForce0.arreferenceimage"
+    },
+    {
+      "filename" : "NikeAirForce1.arreferenceimage"
+    },
+    {
+      "filename" : "NikeAirForce2.arreferenceimage"
+    },
+    {
+      "filename" : "NikeAirForce3.arreferenceimage"
+    },
+    {
+      "filename" : "NikeAirForce4.arreferenceimage"
+    },
+    {
+      "filename" : "NikeAirForce5.arreferenceimage"
+    }
+  ]
+}
