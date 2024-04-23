@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D98FBDE305FFA0D3DF3B5B7 /* Pods_Authlabs_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484A5ABAFFAA46B76BE797CB /* Pods_Authlabs_App.framework */; };
+		C156C9BC2BD24A0B00839BD3 /* NikeAirForce1.scn in Resources */ = {isa = PBXBuildFile; fileRef = C156C9BB2BD24A0B00839BD3 /* NikeAirForce1.scn */; };
+		C15EA8472BD2034D00F4F7D0 /* APIToken.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F9EF262BCFC10C009159A8 /* APIToken.plist */; };
+		C1B4714B2BD3988E00D5FA4D /* ResponseChatDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4714A2BD3988E00D5FA4D /* ResponseChatDTO.swift */; };
+		C1B4714D2BD39F0900D5FA4D /* JSONNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4714C2BD39F0900D5FA4D /* JSONNull.swift */; };
+		C1B4714F2BD3AB9B00D5FA4D /* ChatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4714E2BD3AB9B00D5FA4D /* ChatRepository.swift */; };
+		C1B471512BD3ABD200D5FA4D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B471502BD3ABD200D5FA4D /* ChatViewModel.swift */; };
+		C1DF330A2BCFAF9C00D3651C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF33092BCFAF9C00D3651C /* AppDelegate.swift */; };
+		C1DF330C2BCFAF9C00D3651C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF330B2BCFAF9C00D3651C /* SceneDelegate.swift */; };
+		C1DF330E2BCFAF9C00D3651C /* AuthlabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF330D2BCFAF9C00D3651C /* AuthlabsViewController.swift */; };
+		C1DF33132BCFAFA000D3651C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DF33122BCFAFA000D3651C /* Assets.xcassets */; };
+		C1DF33162BCFAFA000D3651C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C1DF33152BCFAFA000D3651C /* Base */; };
+		C1E7323C2BD3D2ED000B0599 /* AuthlabsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7323B2BD3D2ED000B0599 /* AuthlabsMainViewController.swift */; };
+		C1E7323E2BD619E1000B0599 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7323D2BD619E1000B0599 /* UIViewController+Extension.swift */; };
+		C1E732402BD6289E000B0599 /* ShoesImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7323F2BD6289E000B0599 /* ShoesImage.swift */; };
+		C1F9EF232BCFC05B009159A8 /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF222BCFC05B009159A8 /* APIType.swift */; };
+		C1F9EF2A2BCFC15F009159A8 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF292BCFC15F009159A8 /* Bundle+Extension.swift */; };
+		C1F9EF2D2BCFC193009159A8 /* NetworkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF2C2BCFC193009159A8 /* NetworkURL.swift */; };
+		C1F9EF392BCFC2AC009159A8 /* RequestChatDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF382BCFC2AC009159A8 /* RequestChatDTO.swift */; };
+		C1F9EF3B2BCFC2DB009159A8 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF3A2BCFC2DB009159A8 /* HttpMethod.swift */; };
+		C1F9EF3D2BCFC2F4009159A8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF3C2BCFC2F4009159A8 /* Network.swift */; };
+		C1F9EF3F2BCFC30D009159A8 /* ChatBotNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF3E2BCFC30D009159A8 /* ChatBotNetwork.swift */; };
+		C1F9EF412BCFC323009159A8 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF402BCFC323009159A8 /* NetworkProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		484A5ABAFFAA46B76BE797CB /* Pods_Authlabs_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authlabs_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87ACA1B3D1941FE6A26A86DD /* Pods-Authlabs_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authlabs_App.debug.xcconfig"; path = "Target Support Files/Pods-Authlabs_App/Pods-Authlabs_App.debug.xcconfig"; sourceTree = "<group>"; };
+		C156C9BB2BD24A0B00839BD3 /* NikeAirForce1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = NikeAirForce1.scn; sourceTree = "<group>"; };
+		C15EA84B2BD2047D00F4F7D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Authlabs_App/Info.plist; sourceTree = "<group>"; };
+		C1B4714A2BD3988E00D5FA4D /* ResponseChatDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseChatDTO.swift; sourceTree = "<group>"; };
+		C1B4714C2BD39F0900D5FA4D /* JSONNull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONNull.swift; sourceTree = "<group>"; };
+		C1B4714E2BD3AB9B00D5FA4D /* ChatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRepository.swift; sourceTree = "<group>"; };
+		C1B471502BD3ABD200D5FA4D /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		C1DF33062BCFAF9C00D3651C /* Authlabs_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authlabs_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DF33092BCFAF9C00D3651C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1DF330B2BCFAF9C00D3651C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1DF330D2BCFAF9C00D3651C /* AuthlabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsViewController.swift; sourceTree = "<group>"; };
+		C1DF33122BCFAFA000D3651C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1DF33152BCFAFA000D3651C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1E7323B2BD3D2ED000B0599 /* AuthlabsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsMainViewController.swift; sourceTree = "<group>"; };
+		C1E7323D2BD619E1000B0599 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		C1E7323F2BD6289E000B0599 /* ShoesImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesImage.swift; sourceTree = "<group>"; };
+		C1F9EF222BCFC05B009159A8 /* APIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIType.swift; sourceTree = "<group>"; };
+		C1F9EF262BCFC10C009159A8 /* APIToken.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = APIToken.plist; path = /Users/dev/SwiftProject/Authlabs_App/Authlabs_App/Resource/APIToken.plist; sourceTree = "<absolute>"; };
+		C1F9EF292BCFC15F009159A8 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		C1F9EF2C2BCFC193009159A8 /* NetworkURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkURL.swift; sourceTree = "<group>"; };
+		C1F9EF382BCFC2AC009159A8 /* RequestChatDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestChatDTO.swift; sourceTree = "<group>"; };
+		C1F9EF3A2BCFC2DB009159A8 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		C1F9EF3C2BCFC2F4009159A8 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		C1F9EF3E2BCFC30D009159A8 /* ChatBotNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotNetwork.swift; sourceTree = "<group>"; };
+		C1F9EF402BCFC323009159A8 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		C437FA59DE21D3BAFF602DB6 /* Pods-Authlabs_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authlabs_App.release.xcconfig"; path = "Target Support Files/Pods-Authlabs_App/Pods-Authlabs_App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1DF33032BCFAF9C00D3651C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D98FBDE305FFA0D3DF3B5B7 /* Pods_Authlabs_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DBFB438571E12B2D13CB8CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87ACA1B3D1941FE6A26A86DD /* Pods-Authlabs_App.debug.xcconfig */,
+				C437FA59DE21D3BAFF602DB6 /* Pods-Authlabs_App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1DF32FD2BCFAF9C00D3651C = {
+			isa = PBXGroup;
+			children = (
+				C15EA84B2BD2047D00F4F7D0 /* Info.plist */,
+				C1DF33082BCFAF9C00D3651C /* Authlabs_App */,
+				C1DF33072BCFAF9C00D3651C /* Products */,
+				3DBFB438571E12B2D13CB8CF /* Pods */,
+				CF73176A3C7A8A695101ABDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1DF33072BCFAF9C00D3651C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF33062BCFAF9C00D3651C /* Authlabs_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1DF33082BCFAF9C00D3651C /* Authlabs_App */ = {
+			isa = PBXGroup;
+			children = (
+				C156C9BB2BD24A0B00839BD3 /* NikeAirForce1.scn */,
+				C1F9EF212BCFBF79009159A8 /* App */,
+				C1F9EF202BCFBF4E009159A8 /* Model */,
+				C1F9EF1E2BCFBF40009159A8 /* View */,
+				C1F9EF1F2BCFBF47009159A8 /* ViewModel */,
+				C1F9EF2B2BCFC178009159A8 /* Network */,
+				C1F9EF282BCFC14E009159A8 /* Extension+ */,
+				C1F9EF242BCFC0A0009159A8 /* Resource */,
+			);
+			path = Authlabs_App;
+			sourceTree = "<group>";
+		};
+		C1F9EF1E2BCFBF40009159A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7323B2BD3D2ED000B0599 /* AuthlabsMainViewController.swift */,
+				C1DF330D2BCFAF9C00D3651C /* AuthlabsViewController.swift */,
+				C1DF33142BCFAFA000D3651C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1F9EF1F2BCFBF47009159A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1B471502BD3ABD200D5FA4D /* ChatViewModel.swift */,
+				C1B4714E2BD3AB9B00D5FA4D /* ChatRepository.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1F9EF202BCFBF4E009159A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9EF382BCFC2AC009159A8 /* RequestChatDTO.swift */,
+				C1B4714A2BD3988E00D5FA4D /* ResponseChatDTO.swift */,
+				C1B4714C2BD39F0900D5FA4D /* JSONNull.swift */,
+				C1E7323F2BD6289E000B0599 /* ShoesImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1F9EF212BCFBF79009159A8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF33092BCFAF9C00D3651C /* AppDelegate.swift */,
+				C1DF330B2BCFAF9C00D3651C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C1F9EF242BCFC0A0009159A8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF33122BCFAFA000D3651C /* Assets.xcassets */,
+				C1F9EF262BCFC10C009159A8 /* APIToken.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C1F9EF282BCFC14E009159A8 /* Extension+ */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9EF292BCFC15F009159A8 /* Bundle+Extension.swift */,
+				C1E7323D2BD619E1000B0599 /* UIViewController+Extension.swift */,
+			);
+			path = "Extension+";
+			sourceTree = "<group>";
+		};
+		C1F9EF2B2BCFC178009159A8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C1F9EF222BCFC05B009159A8 /* APIType.swift */,
+				C1F9EF2C2BCFC193009159A8 /* NetworkURL.swift */,
+				C1F9EF3A2BCFC2DB009159A8 /* HttpMethod.swift */,
+				C1F9EF3C2BCFC2F4009159A8 /* Network.swift */,
+				C1F9EF3E2BCFC30D009159A8 /* ChatBotNetwork.swift */,
+				C1F9EF402BCFC323009159A8 /* NetworkProvider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CF73176A3C7A8A695101ABDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				484A5ABAFFAA46B76BE797CB /* Pods_Authlabs_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1DF33052BCFAF9C00D3651C /* Authlabs_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1DF331A2BCFAFA000D3651C /* Build configuration list for PBXNativeTarget "Authlabs_App" */;
+			buildPhases = (
+				3D4C14274273FD7C33420324 /* [CP] Check Pods Manifest.lock */,
+				C1DF33022BCFAF9C00D3651C /* Sources */,
+				C1DF33032BCFAF9C00D3651C /* Frameworks */,
+				C1DF33042BCFAF9C00D3651C /* Resources */,
+				C85015E35A4C7CEB221B57F8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Authlabs_App;
+			productName = Authlabs_App;
+			productReference = C1DF33062BCFAF9C00D3651C /* Authlabs_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1DF32FE2BCFAF9C00D3651C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C1DF33052BCFAF9C00D3651C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C1DF33012BCFAF9C00D3651C /* Build configuration list for PBXProject "Authlabs_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1DF32FD2BCFAF9C00D3651C;
+			productRefGroup = C1DF33072BCFAF9C00D3651C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1DF33052BCFAF9C00D3651C /* Authlabs_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1DF33042BCFAF9C00D3651C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1DF33132BCFAFA000D3651C /* Assets.xcassets in Resources */,
+				C1DF33162BCFAFA000D3651C /* Base in Resources */,
+				C15EA8472BD2034D00F4F7D0 /* APIToken.plist in Resources */,
+				C156C9BC2BD24A0B00839BD3 /* NikeAirForce1.scn in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D4C14274273FD7C33420324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Authlabs_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85015E35A4C7CEB221B57F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authlabs_App/Pods-Authlabs_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Authlabs_App/Pods-Authlabs_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Authlabs_App/Pods-Authlabs_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1DF33022BCFAF9C00D3651C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B4714D2BD39F0900D5FA4D /* JSONNull.swift in Sources */,
+				C1B4714F2BD3AB9B00D5FA4D /* ChatRepository.swift in Sources */,
+				C1E732402BD6289E000B0599 /* ShoesImage.swift in Sources */,
+				C1F9EF3B2BCFC2DB009159A8 /* HttpMethod.swift in Sources */,
+				C1F9EF2D2BCFC193009159A8 /* NetworkURL.swift in Sources */,
+				C1E7323E2BD619E1000B0599 /* UIViewController+Extension.swift in Sources */,
+				C1F9EF412BCFC323009159A8 /* NetworkProvider.swift in Sources */,
+				C1F9EF232BCFC05B009159A8 /* APIType.swift in Sources */,
+				C1E7323C2BD3D2ED000B0599 /* AuthlabsMainViewController.swift in Sources */,
+				C1F9EF2A2BCFC15F009159A8 /* Bundle+Extension.swift in Sources */,
+				C1DF330E2BCFAF9C00D3651C /* AuthlabsViewController.swift in Sources */,
+				C1B4714B2BD3988E00D5FA4D /* ResponseChatDTO.swift in Sources */,
+				C1DF330A2BCFAF9C00D3651C /* AppDelegate.swift in Sources */,
+				C1DF330C2BCFAF9C00D3651C /* SceneDelegate.swift in Sources */,
+				C1F9EF3F2BCFC30D009159A8 /* ChatBotNetwork.swift in Sources */,
+				C1F9EF3D2BCFC2F4009159A8 /* Network.swift in Sources */,
+				C1B471512BD3ABD200D5FA4D /* ChatViewModel.swift in Sources */,
+				C1F9EF392BCFC2AC009159A8 /* RequestChatDTO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1DF33142BCFAFA000D3651C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1DF33152BCFAFA000D3651C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1DF33182BCFAFA000D3651C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1DF33192BCFAFA000D3651C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1DF331B2BCFAFA000D3651C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87ACA1B3D1941FE6A26A86DD /* Pods-Authlabs_App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T92LV6HV88;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Authlabs_App/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SeSAC.KimByeongSu.Authlabs-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1DF331C2BCFAFA000D3651C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C437FA59DE21D3BAFF602DB6 /* Pods-Authlabs_App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T92LV6HV88;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Authlabs_App/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SeSAC.KimByeongSu.Authlabs-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1DF33012BCFAF9C00D3651C /* Build configuration list for PBXProject "Authlabs_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DF33182BCFAFA000D3651C /* Debug */,
+				C1DF33192BCFAFA000D3651C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1DF331A2BCFAFA000D3651C /* Build configuration list for PBXNativeTarget "Authlabs_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1DF331B2BCFAFA000D3651C /* Debug */,
+				C1DF331C2BCFAFA000D3651C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1DF32FE2BCFAF9C00D3651C /* Project object */;
+}
