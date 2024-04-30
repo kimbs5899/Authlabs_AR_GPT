@@ -15,7 +15,7 @@ struct ChatRepository {
         self.chatBotNetwork = provider.makeChatNetwork()
     }
     
-    func requestChatResultData(image: ShoesImage) -> Observable<ResponseChatDTO> {
+    func requestChatResultData(image: AssetsImage) -> Observable<ResponseChatDTO> {
         self.chatBotNetwork.requestChatBotImage(image: image).map {
             return $0
         }

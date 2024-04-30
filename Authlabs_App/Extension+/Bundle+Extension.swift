@@ -18,4 +18,15 @@ extension Bundle {
         }
         return key
     }
+    
+    var kakaoApi: String {
+        guard
+            let file = self.path(forResource: "APIToken", ofType: "plist"),
+            let resource = NSDictionary(contentsOfFile: file),
+            let key = resource["Kakao_API_KEY"] as? String
+        else {
+            return ""
+        }
+        return key
+    }
 }

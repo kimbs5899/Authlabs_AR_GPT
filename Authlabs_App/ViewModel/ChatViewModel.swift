@@ -7,6 +7,7 @@
 
 import Foundation
 import RxSwift
+import SwiftSoup
 
 final class ChatBotViewModel {
     private let chatRepository: ChatRepository
@@ -16,7 +17,7 @@ final class ChatBotViewModel {
     }
     
     struct Input {
-        let chatTigger: Observable<ShoesImage>
+        let chatTigger: Observable<AssetsImage>
     }
     
     struct Output {

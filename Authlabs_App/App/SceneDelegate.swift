@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+class SceneDelegate: UIResponder, UIWindowSceneDelegate, UINavigationControllerDelegate {
     var window: UIWindow?
     private let viewModel = ChatBotViewModel(chatRepository: ChatRepository(provider: NetworkProvider()))
     
@@ -18,10 +18,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             return
         }
         
-        let mainViewController = AuthlabsMainViewController()
-        mainViewController.delegate = self
+        let rootViewController = AuthlabsMainViewController()
+        rootViewController.delegate = self
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = mainViewController
+        window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
     }
 
@@ -37,12 +37,30 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 
 extension SceneDelegate: ChangeViewDelegate {
-    func moveView() {
-        window?.rootViewController = AuthlabsARViewController(viewModel: viewModel)
+    func moveMainView() {
+        let rootViewController =  AuthlabsMainViewController()
+        rootViewController.delegate = self
+        window?.rootViewController = rootViewController
+        window?.makeKeyAndVisible()
+    }
+    
+    func moveAddAssetsView() {
+        let rootViewController = AuthlabsAddAssetViewController()
+        rootViewController.delegate = self
+        window?.rootViewController = rootViewController
+        window?.makeKeyAndVisible()
+    }
+    
+    func moveARView() {
+        let rootViewController = AuthlabsARViewController(viewModel: viewModel)
+        rootViewController.delegate = self
+        window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()
     }
 }
 
 protocol ChangeViewDelegate: AnyObject {
-    func moveView()
+    func moveARView()
+    func moveAddAssetsView()
+    func moveMainView()
 }

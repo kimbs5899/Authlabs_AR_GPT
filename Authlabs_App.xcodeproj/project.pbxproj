@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		3D98FBDE305FFA0D3DF3B5B7 /* Pods_Authlabs_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484A5ABAFFAA46B76BE797CB /* Pods_Authlabs_App.framework */; };
+		C100CEA32BDF740B006FEC1D /* RequestImageSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEA22BDF740B006FEC1D /* RequestImageSearch.swift */; };
+		C100CEA92BDF766A006FEC1D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEA82BDF766A006FEC1D /* NetworkError.swift */; };
+		C100CEAB2BDF8C71006FEC1D /* LoadingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEAA2BDF8C71006FEC1D /* LoadingIndicatorView.swift */; };
+		C100CEAD2BDF8C9C006FEC1D /* Animation - 20240429.json in Resources */ = {isa = PBXBuildFile; fileRef = C100CEAC2BDF8C9C006FEC1D /* Animation - 20240429.json */; };
+		C100CEAF2BDFAE9A006FEC1D /* AuthlabsAddAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEAE2BDFAE9A006FEC1D /* AuthlabsAddAssetViewController.swift */; };
+		C100CEB12BDFDFAD006FEC1D /* MarkerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEB02BDFDFAD006FEC1D /* MarkerViewModel.swift */; };
+		C100CEB42BDFE098006FEC1D /* MarkerData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C100CEB22BDFE098006FEC1D /* MarkerData.xcdatamodeld */; };
+		C100CEBB2BDFE141006FEC1D /* MarkerData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEBA2BDFE141006FEC1D /* MarkerData+CoreDataProperties.swift */; };
+		C100CEBC2BDFE141006FEC1D /* MarkerData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEB92BDFE141006FEC1D /* MarkerData+CoreDataClass.swift */; };
+		C100CEBE2BDFE17E006FEC1D /* MarkerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C100CEBD2BDFE17E006FEC1D /* MarkerImage.swift */; };
+		C115E6AD2BE08012000C2588 /* AuthlabsAddAssetDatilViewConctroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C115E6AC2BE08012000C2588 /* AuthlabsAddAssetDatilViewConctroller.swift */; };
+		C115E6AF2BE080AF000C2588 /* AuthlabsAddAssetDatilViewConctroller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C115E6AE2BE080AF000C2588 /* AuthlabsAddAssetDatilViewConctroller+Extension.swift */; };
+		C115E6B12BE0E267000C2588 /* MarkerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C115E6B02BE0E267000C2588 /* MarkerProvider.swift */; };
+		C12442742BDA806D008B6D54 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12442732BDA806D008B6D54 /* DetailViewModel.swift */; };
+		C148892C2BDE2E9C0011FF98 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C148892B2BDE2E9C0011FF98 /* UIColor+Extension.swift */; };
+		C148892E2BDEA8FC0011FF98 /* img_circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = C148892D2BDEA8FC0011FF98 /* img_circle.gif */; };
 		C156C9BC2BD24A0B00839BD3 /* NikeAirForce1.scn in Resources */ = {isa = PBXBuildFile; fileRef = C156C9BB2BD24A0B00839BD3 /* NikeAirForce1.scn */; };
-		C15EA8472BD2034D00F4F7D0 /* APIToken.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1F9EF262BCFC10C009159A8 /* APIToken.plist */; };
+		C192139A2BD8B7E500FDA55F /* APIToken.plist in Resources */ = {isa = PBXBuildFile; fileRef = C19213992BD8B7E500FDA55F /* APIToken.plist */; };
+		C192139C2BD93BE400FDA55F /* ChatResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192139B2BD93BE400FDA55F /* ChatResultData.swift */; };
+		C192139E2BD93E4800FDA55F /* AuthlabsARDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C192139D2BD93E4800FDA55F /* AuthlabsARDetailViewController.swift */; };
 		C1B4714B2BD3988E00D5FA4D /* ResponseChatDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4714A2BD3988E00D5FA4D /* ResponseChatDTO.swift */; };
 		C1B4714D2BD39F0900D5FA4D /* JSONNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4714C2BD39F0900D5FA4D /* JSONNull.swift */; };
 		C1B4714F2BD3AB9B00D5FA4D /* ChatRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4714E2BD3AB9B00D5FA4D /* ChatRepository.swift */; };
 		C1B471512BD3ABD200D5FA4D /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B471502BD3ABD200D5FA4D /* ChatViewModel.swift */; };
 		C1DF330A2BCFAF9C00D3651C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF33092BCFAF9C00D3651C /* AppDelegate.swift */; };
 		C1DF330C2BCFAF9C00D3651C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF330B2BCFAF9C00D3651C /* SceneDelegate.swift */; };
-		C1DF330E2BCFAF9C00D3651C /* AuthlabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF330D2BCFAF9C00D3651C /* AuthlabsViewController.swift */; };
+		C1DF330E2BCFAF9C00D3651C /* AuthlabsARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF330D2BCFAF9C00D3651C /* AuthlabsARViewController.swift */; };
 		C1DF33132BCFAFA000D3651C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DF33122BCFAFA000D3651C /* Assets.xcassets */; };
 		C1DF33162BCFAFA000D3651C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C1DF33152BCFAFA000D3651C /* Base */; };
 		C1E7323C2BD3D2ED000B0599 /* AuthlabsMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7323B2BD3D2ED000B0599 /* AuthlabsMainViewController.swift */; };
 		C1E7323E2BD619E1000B0599 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7323D2BD619E1000B0599 /* UIViewController+Extension.swift */; };
-		C1E732402BD6289E000B0599 /* ShoesImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7323F2BD6289E000B0599 /* ShoesImage.swift */; };
+		C1E732402BD6289E000B0599 /* AssetsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E7323F2BD6289E000B0599 /* AssetsImage.swift */; };
 		C1F9EF232BCFC05B009159A8 /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF222BCFC05B009159A8 /* APIType.swift */; };
 		C1F9EF2A2BCFC15F009159A8 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF292BCFC15F009159A8 /* Bundle+Extension.swift */; };
 		C1F9EF2D2BCFC193009159A8 /* NetworkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F9EF2C2BCFC193009159A8 /* NetworkURL.swift */; };
@@ -35,8 +53,27 @@
 /* Begin PBXFileReference section */
 		484A5ABAFFAA46B76BE797CB /* Pods_Authlabs_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Authlabs_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87ACA1B3D1941FE6A26A86DD /* Pods-Authlabs_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Authlabs_App.debug.xcconfig"; path = "Target Support Files/Pods-Authlabs_App/Pods-Authlabs_App.debug.xcconfig"; sourceTree = "<group>"; };
+		C100CEA22BDF740B006FEC1D /* RequestImageSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestImageSearch.swift; sourceTree = "<group>"; };
+		C100CEA82BDF766A006FEC1D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		C100CEAA2BDF8C71006FEC1D /* LoadingIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorView.swift; sourceTree = "<group>"; };
+		C100CEAC2BDF8C9C006FEC1D /* Animation - 20240429.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 20240429.json"; sourceTree = "<group>"; };
+		C100CEAE2BDFAE9A006FEC1D /* AuthlabsAddAssetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsAddAssetViewController.swift; sourceTree = "<group>"; };
+		C100CEB02BDFDFAD006FEC1D /* MarkerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViewModel.swift; sourceTree = "<group>"; };
+		C100CEB32BDFE098006FEC1D /* MarkerData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarkerData.xcdatamodel; sourceTree = "<group>"; };
+		C100CEB92BDFE141006FEC1D /* MarkerData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MarkerData+CoreDataClass.swift"; path = "/Users/dev/SwiftProject/Authlabs_AR_GPT/Authlabs_App/Resource/MarkerData+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		C100CEBA2BDFE141006FEC1D /* MarkerData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MarkerData+CoreDataProperties.swift"; path = "/Users/dev/SwiftProject/Authlabs_AR_GPT/Authlabs_App/Resource/MarkerData+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		C100CEBD2BDFE17E006FEC1D /* MarkerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerImage.swift; sourceTree = "<group>"; };
+		C115E6AC2BE08012000C2588 /* AuthlabsAddAssetDatilViewConctroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsAddAssetDatilViewConctroller.swift; sourceTree = "<group>"; };
+		C115E6AE2BE080AF000C2588 /* AuthlabsAddAssetDatilViewConctroller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthlabsAddAssetDatilViewConctroller+Extension.swift"; sourceTree = "<group>"; };
+		C115E6B02BE0E267000C2588 /* MarkerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerProvider.swift; sourceTree = "<group>"; };
+		C12442732BDA806D008B6D54 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		C148892B2BDE2E9C0011FF98 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		C148892D2BDEA8FC0011FF98 /* img_circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = img_circle.gif; sourceTree = "<group>"; };
 		C156C9BB2BD24A0B00839BD3 /* NikeAirForce1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = NikeAirForce1.scn; sourceTree = "<group>"; };
 		C15EA84B2BD2047D00F4F7D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Authlabs_App/Info.plist; sourceTree = "<group>"; };
+		C19213992BD8B7E500FDA55F /* APIToken.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = APIToken.plist; path = ../../../../../Matthew/Desktop/APIToken.plist; sourceTree = "<group>"; };
+		C192139B2BD93BE400FDA55F /* ChatResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResultData.swift; sourceTree = "<group>"; };
+		C192139D2BD93E4800FDA55F /* AuthlabsARDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsARDetailViewController.swift; sourceTree = "<group>"; };
 		C1B4714A2BD3988E00D5FA4D /* ResponseChatDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseChatDTO.swift; sourceTree = "<group>"; };
 		C1B4714C2BD39F0900D5FA4D /* JSONNull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONNull.swift; sourceTree = "<group>"; };
 		C1B4714E2BD3AB9B00D5FA4D /* ChatRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRepository.swift; sourceTree = "<group>"; };
@@ -44,14 +81,13 @@
 		C1DF33062BCFAF9C00D3651C /* Authlabs_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authlabs_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DF33092BCFAF9C00D3651C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1DF330B2BCFAF9C00D3651C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1DF330D2BCFAF9C00D3651C /* AuthlabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsViewController.swift; sourceTree = "<group>"; };
+		C1DF330D2BCFAF9C00D3651C /* AuthlabsARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsARViewController.swift; sourceTree = "<group>"; };
 		C1DF33122BCFAFA000D3651C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1DF33152BCFAFA000D3651C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1E7323B2BD3D2ED000B0599 /* AuthlabsMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthlabsMainViewController.swift; sourceTree = "<group>"; };
 		C1E7323D2BD619E1000B0599 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		C1E7323F2BD6289E000B0599 /* ShoesImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesImage.swift; sourceTree = "<group>"; };
+		C1E7323F2BD6289E000B0599 /* AssetsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsImage.swift; sourceTree = "<group>"; };
 		C1F9EF222BCFC05B009159A8 /* APIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIType.swift; sourceTree = "<group>"; };
-		C1F9EF262BCFC10C009159A8 /* APIToken.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = APIToken.plist; path = /Users/dev/SwiftProject/Authlabs_App/Authlabs_App/Resource/APIToken.plist; sourceTree = "<absolute>"; };
 		C1F9EF292BCFC15F009159A8 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		C1F9EF2C2BCFC193009159A8 /* NetworkURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkURL.swift; sourceTree = "<group>"; };
 		C1F9EF382BCFC2AC009159A8 /* RequestChatDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestChatDTO.swift; sourceTree = "<group>"; };
@@ -105,7 +141,9 @@
 		C1DF33082BCFAF9C00D3651C /* Authlabs_App */ = {
 			isa = PBXGroup;
 			children = (
+				C100CEAC2BDF8C9C006FEC1D /* Animation - 20240429.json */,
 				C156C9BB2BD24A0B00839BD3 /* NikeAirForce1.scn */,
+				C148892D2BDEA8FC0011FF98 /* img_circle.gif */,
 				C1F9EF212BCFBF79009159A8 /* App */,
 				C1F9EF202BCFBF4E009159A8 /* Model */,
 				C1F9EF1E2BCFBF40009159A8 /* View */,
@@ -121,7 +159,12 @@
 			isa = PBXGroup;
 			children = (
 				C1E7323B2BD3D2ED000B0599 /* AuthlabsMainViewController.swift */,
-				C1DF330D2BCFAF9C00D3651C /* AuthlabsViewController.swift */,
+				C100CEAE2BDFAE9A006FEC1D /* AuthlabsAddAssetViewController.swift */,
+				C115E6AC2BE08012000C2588 /* AuthlabsAddAssetDatilViewConctroller.swift */,
+				C115E6AE2BE080AF000C2588 /* AuthlabsAddAssetDatilViewConctroller+Extension.swift */,
+				C1DF330D2BCFAF9C00D3651C /* AuthlabsARViewController.swift */,
+				C192139D2BD93E4800FDA55F /* AuthlabsARDetailViewController.swift */,
+				C100CEAA2BDF8C71006FEC1D /* LoadingIndicatorView.swift */,
 				C1DF33142BCFAFA000D3651C /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -132,6 +175,9 @@
 			children = (
 				C1B471502BD3ABD200D5FA4D /* ChatViewModel.swift */,
 				C1B4714E2BD3AB9B00D5FA4D /* ChatRepository.swift */,
+				C12442732BDA806D008B6D54 /* DetailViewModel.swift */,
+				C100CEB02BDFDFAD006FEC1D /* MarkerViewModel.swift */,
+				C115E6B02BE0E267000C2588 /* MarkerProvider.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -140,9 +186,12 @@
 			isa = PBXGroup;
 			children = (
 				C1F9EF382BCFC2AC009159A8 /* RequestChatDTO.swift */,
+				C100CEA22BDF740B006FEC1D /* RequestImageSearch.swift */,
 				C1B4714A2BD3988E00D5FA4D /* ResponseChatDTO.swift */,
 				C1B4714C2BD39F0900D5FA4D /* JSONNull.swift */,
-				C1E7323F2BD6289E000B0599 /* ShoesImage.swift */,
+				C1E7323F2BD6289E000B0599 /* AssetsImage.swift */,
+				C192139B2BD93BE400FDA55F /* ChatResultData.swift */,
+				C100CEBD2BDFE17E006FEC1D /* MarkerImage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,8 +208,11 @@
 		C1F9EF242BCFC0A0009159A8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				C100CEB92BDFE141006FEC1D /* MarkerData+CoreDataClass.swift */,
+				C100CEBA2BDFE141006FEC1D /* MarkerData+CoreDataProperties.swift */,
 				C1DF33122BCFAFA000D3651C /* Assets.xcassets */,
-				C1F9EF262BCFC10C009159A8 /* APIToken.plist */,
+				C19213992BD8B7E500FDA55F /* APIToken.plist */,
+				C100CEB22BDFE098006FEC1D /* MarkerData.xcdatamodeld */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -170,6 +222,7 @@
 			children = (
 				C1F9EF292BCFC15F009159A8 /* Bundle+Extension.swift */,
 				C1E7323D2BD619E1000B0599 /* UIViewController+Extension.swift */,
+				C148892B2BDE2E9C0011FF98 /* UIColor+Extension.swift */,
 			);
 			path = "Extension+";
 			sourceTree = "<group>";
@@ -177,6 +230,7 @@
 		C1F9EF2B2BCFC178009159A8 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				C100CEA82BDF766A006FEC1D /* NetworkError.swift */,
 				C1F9EF222BCFC05B009159A8 /* APIType.swift */,
 				C1F9EF2C2BCFC193009159A8 /* NetworkURL.swift */,
 				C1F9EF3A2BCFC2DB009159A8 /* HttpMethod.swift */,
@@ -256,9 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1DF33132BCFAFA000D3651C /* Assets.xcassets in Resources */,
+				C100CEAD2BDF8C9C006FEC1D /* Animation - 20240429.json in Resources */,
+				C148892E2BDEA8FC0011FF98 /* img_circle.gif in Resources */,
 				C1DF33162BCFAFA000D3651C /* Base in Resources */,
-				C15EA8472BD2034D00F4F7D0 /* APIToken.plist in Resources */,
 				C156C9BC2BD24A0B00839BD3 /* NikeAirForce1.scn in Resources */,
+				C192139A2BD8B7E500FDA55F /* APIToken.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,23 +367,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C115E6B12BE0E267000C2588 /* MarkerProvider.swift in Sources */,
+				C100CEBB2BDFE141006FEC1D /* MarkerData+CoreDataProperties.swift in Sources */,
 				C1B4714D2BD39F0900D5FA4D /* JSONNull.swift in Sources */,
 				C1B4714F2BD3AB9B00D5FA4D /* ChatRepository.swift in Sources */,
-				C1E732402BD6289E000B0599 /* ShoesImage.swift in Sources */,
+				C100CEBE2BDFE17E006FEC1D /* MarkerImage.swift in Sources */,
+				C1E732402BD6289E000B0599 /* AssetsImage.swift in Sources */,
+				C148892C2BDE2E9C0011FF98 /* UIColor+Extension.swift in Sources */,
 				C1F9EF3B2BCFC2DB009159A8 /* HttpMethod.swift in Sources */,
 				C1F9EF2D2BCFC193009159A8 /* NetworkURL.swift in Sources */,
 				C1E7323E2BD619E1000B0599 /* UIViewController+Extension.swift in Sources */,
+				C100CEAF2BDFAE9A006FEC1D /* AuthlabsAddAssetViewController.swift in Sources */,
+				C192139C2BD93BE400FDA55F /* ChatResultData.swift in Sources */,
+				C100CEB12BDFDFAD006FEC1D /* MarkerViewModel.swift in Sources */,
+				C115E6AF2BE080AF000C2588 /* AuthlabsAddAssetDatilViewConctroller+Extension.swift in Sources */,
 				C1F9EF412BCFC323009159A8 /* NetworkProvider.swift in Sources */,
 				C1F9EF232BCFC05B009159A8 /* APIType.swift in Sources */,
 				C1E7323C2BD3D2ED000B0599 /* AuthlabsMainViewController.swift in Sources */,
 				C1F9EF2A2BCFC15F009159A8 /* Bundle+Extension.swift in Sources */,
-				C1DF330E2BCFAF9C00D3651C /* AuthlabsViewController.swift in Sources */,
+				C100CEA32BDF740B006FEC1D /* RequestImageSearch.swift in Sources */,
+				C192139E2BD93E4800FDA55F /* AuthlabsARDetailViewController.swift in Sources */,
+				C1DF330E2BCFAF9C00D3651C /* AuthlabsARViewController.swift in Sources */,
+				C115E6AD2BE08012000C2588 /* AuthlabsAddAssetDatilViewConctroller.swift in Sources */,
 				C1B4714B2BD3988E00D5FA4D /* ResponseChatDTO.swift in Sources */,
+				C100CEB42BDFE098006FEC1D /* MarkerData.xcdatamodeld in Sources */,
 				C1DF330A2BCFAF9C00D3651C /* AppDelegate.swift in Sources */,
+				C12442742BDA806D008B6D54 /* DetailViewModel.swift in Sources */,
 				C1DF330C2BCFAF9C00D3651C /* SceneDelegate.swift in Sources */,
 				C1F9EF3F2BCFC30D009159A8 /* ChatBotNetwork.swift in Sources */,
+				C100CEBC2BDFE141006FEC1D /* MarkerData+CoreDataClass.swift in Sources */,
+				C100CEAB2BDF8C71006FEC1D /* LoadingIndicatorView.swift in Sources */,
 				C1F9EF3D2BCFC2F4009159A8 /* Network.swift in Sources */,
 				C1B471512BD3ABD200D5FA4D /* ChatViewModel.swift in Sources */,
+				C100CEA92BDF766A006FEC1D /* NetworkError.swift in Sources */,
 				C1F9EF392BCFC2AC009159A8 /* RequestChatDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +550,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Authlabs_App/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -507,6 +580,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Authlabs_App/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -545,6 +619,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C100CEB22BDFE098006FEC1D /* MarkerData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C100CEB32BDFE098006FEC1D /* MarkerData.xcdatamodel */,
+			);
+			currentVersion = C100CEB32BDFE098006FEC1D /* MarkerData.xcdatamodel */;
+			name = MarkerData.xcdatamodeld;
+			path = /Users/dev/SwiftProject/Authlabs_AR_GPT/Authlabs_App/Resource/MarkerData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C1DF32FE2BCFAF9C00D3651C /* Project object */;
 }

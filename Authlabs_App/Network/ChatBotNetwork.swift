@@ -18,8 +18,10 @@ final class ChatBotNetwork {
 
 // MARK: - Public Method
 extension ChatBotNetwork {
-    func requestChatBotImage(image: ShoesImage) -> Observable<ResponseChatDTO> {
-        return network.fetchData(image: ShoesImage(rawValue: encodeImage(imageName: image.name)!) ?? .NikeAirForce0)
+    func requestChatBotImage(image: AssetsImage) -> Observable<ResponseChatDTO> {
+        self.network.fetchData(image: image).map {
+            return $0
+        }
     }
 }
 

@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,14 +22,20 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_logo" translatesAutoresizingMaskIntoConstraints="NO" id="JCz-6h-xC5">
                                 <rect key="frame" x="127" y="259" width="139" height="38"/>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="u10-Sk-V5I">
+                                <rect key="frame" x="186.66666666666666" y="647" width="20" height="20"/>
+                                <color key="color" systemColor="tintColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yyU-Nw-yZ2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="6i7-qW-grY"/>
                             <constraint firstItem="yyU-Nw-yZ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7oh-W3-A26"/>
+                            <constraint firstItem="u10-Sk-V5I" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8nR-M9-Dmg"/>
                             <constraint firstItem="JCz-6h-xC5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Wt0-KL-I2n"/>
                             <constraint firstItem="JCz-6h-xC5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XcP-Ym-yK6"/>
+                            <constraint firstItem="u10-Sk-V5I" firstAttribute="top" secondItem="JCz-6h-xC5" secondAttribute="bottom" constant="350" id="g9f-4C-nYJ"/>
                             <constraint firstAttribute="bottom" secondItem="yyU-Nw-yZ2" secondAttribute="bottom" id="lUW-vb-oeL"/>
                             <constraint firstItem="yyU-Nw-yZ2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nf2-rv-mnQ"/>
                         </constraints>
@@ -41,6 +48,9 @@
     </scenes>
     <resources>
         <image name="img_backPattern" width="430" height="932"/>
-        <image name="img_logo" width="139" height="38"/>
+        <image name="img_logo" width="138.5" height="38"/>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

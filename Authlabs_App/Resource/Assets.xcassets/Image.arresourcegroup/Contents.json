@@ -5,22 +5,28 @@
   },
   "resources" : [
     {
-      "filename" : "NikeAirForce0.arreferenceimage"
+      "filename" : "nikeAirForce0.arreferenceimage"
     },
     {
-      "filename" : "NikeAirForce1.arreferenceimage"
+      "filename" : "nikeAirForce1.arreferenceimage"
     },
     {
-      "filename" : "NikeAirForce2.arreferenceimage"
+      "filename" : "nikeAirForce2.arreferenceimage"
     },
     {
-      "filename" : "NikeAirForce3.arreferenceimage"
+      "filename" : "nikeAirForce3.arreferenceimage"
     },
     {
-      "filename" : "NikeAirForce4.arreferenceimage"
+      "filename" : "nikeAirForce4.arreferenceimage"
     },
     {
-      "filename" : "NikeAirForce5.arreferenceimage"
+      "filename" : "nikeAirForce5.arreferenceimage"
+    },
+    {
+      "filename" : "qrcode.arreferenceimage"
+    },
+    {
+      "filename" : "starbucks.arreferenceimage"
     }
   ]
 }
